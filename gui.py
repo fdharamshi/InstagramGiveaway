@@ -41,7 +41,7 @@ def getComments():
     usernames.remove("femindharamshi")
     usernames.remove("beyondhelloworld")
 
-    for user in usernames:
+    for user in sorted(usernames):
         print(user)
 
 counter = 0
